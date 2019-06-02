@@ -16,7 +16,7 @@ class Song
 
 
   def genres
-    if @@genres.include?
+    if @@genres.include?(@genre)
   end
 
   def artists
