@@ -18,12 +18,11 @@ class Song
 
 
   def genres
+    @@genres.each do |values|
 
-      @@genres.each do |values|
-
-      end
     end
   end
+
 
   def artists
 
