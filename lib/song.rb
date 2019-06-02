@@ -18,9 +18,7 @@ class Song
 
 
   def genres
-    @@genres.each do |values|
-
-    end
+    @@genres
   end
 
 
