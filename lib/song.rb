@@ -1,6 +1,6 @@
 class Song
   @@count = 0
-  @@artists = -
+  @@artists = 0
 
   attr_reader :name, :artist, :genre
 
