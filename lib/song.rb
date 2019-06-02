@@ -10,15 +10,17 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
-    @@genres << genre
+    if @@genres.include?(@genre)
+      @@genres << genre
+    end
     @@count += 1
   end
 
 
   def genres
-    if @@genres.include?(@genre)
+
       @@genres.each do |values|
-        
+
       end
     end
   end
