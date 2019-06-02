@@ -18,7 +18,7 @@ class Song
   def genres
     if @@genres.include?(@genre)
       @@genres.each do |values|
-
+        
       end
     end
   end
